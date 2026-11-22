@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hellblock",
+  "version": "${version}",
+  "name": "Hellblock",
+  "description": "Один блок, который тебя ест. Под блоком запечатан Сатана, и каждый сломанный блок ослабляет печать.",
+  "authors": ["You"],
+  "license": "MIT",
+  "icon": "assets/hellblock/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.hellblock.HellblockMod"],
+    "client": ["com.hellblock.client.HellblockClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
